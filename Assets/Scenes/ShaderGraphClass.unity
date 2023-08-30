@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4614.1313, g: 2948.924, b: 2171.137, a: 1}
+  m_IndirectSpecularColor: {r: 4603.9526, g: 2943.631, b: 2169.6838, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -695,13 +695,13 @@ MonoBehaviour:
   cpuSimulation: 1
   cpuFullResolution: 0
   cpuEvaluateRipples: 0
-  timeMultiplier: 1
-  repetitionSize: 500
-  largeWindSpeed: 30
-  largeWindOrientationValue: 0
-  largeCurrentSpeedValue: 0
-  largeCurrentOrientationValue: 0
-  largeChaos: 0.85
+  timeMultiplier: 2.45
+  repetitionSize: 250
+  largeWindSpeed: 202
+  largeWindOrientationValue: 6.05
+  largeCurrentSpeedValue: 4.63
+  largeCurrentOrientationValue: 6.12
+  largeChaos: 0.768
   largeBand0Multiplier: 1
   largeBand0FadeToggle: 1
   largeBand0FadeStart: 1500
@@ -711,7 +711,7 @@ MonoBehaviour:
   largeBand1FadeStart: 300
   largeBand1FadeDistance: 800
   ripples: 1
-  ripplesWindSpeed: 8
+  ripplesWindSpeed: 4.7
   ripplesWindOrientationMode: 0
   ripplesWindOrientationValue: 0
   ripplesCurrentMode: 0
@@ -722,19 +722,19 @@ MonoBehaviour:
   ripplesFadeStart: 50
   ripplesFadeDistance: 200
   customMaterial: {fileID: 0}
-  startSmoothness: 0.95
-  endSmoothness: 0.85
+  startSmoothness: 0.561
+  endSmoothness: 0.173
   smoothnessFadeStart: 100
   smoothnessFadeDistance: 500
-  refractionColor: {r: 0.1, g: 0.5, b: 0.5, a: 1}
-  maxRefractionDistance: 0.5
-  absorptionDistance: 1.5
-  scatteringColor: {r: 0, g: 0.4, b: 0.4, a: 1}
-  ambientScattering: 0.2
-  heightScattering: 0.2
-  displacementScattering: 0.1
-  directLightTipScattering: 0.6
-  directLightBodyScattering: 0.5
+  refractionColor: {r: 0.48794055, g: 0.8018868, b: 0.63011354, a: 1}
+  maxRefractionDistance: 2.71
+  absorptionDistance: 69
+  scatteringColor: {r: 0.07342471, g: 0.4716981, b: 0.42902592, a: 1}
+  ambientScattering: 0.631
+  heightScattering: 0.682
+  displacementScattering: 0.376
+  directLightTipScattering: 0.651
+  directLightBodyScattering: 0.221
   caustics: 0
   causticsIntensity: 0.5
   causticsPlaneBlendDistance: 1
@@ -742,7 +742,7 @@ MonoBehaviour:
   causticsBand: 2
   virtualPlaneDistance: 4
   foam: 1
-  simulationFoamAmount: 0.2
+  simulationFoamAmount: 0.397
   simulationFoamDrag: 0
   simulationFoamSmoothness: 1
   foamMask: {fileID: 0}
@@ -761,8 +761,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.2
-      value: 0
+      time: 0.3333313
+      value: 0.06604004
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -770,8 +770,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.3
-      value: 1
+      time: 0.5333374
+      value: 0.79244614
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -797,7 +797,7 @@ MonoBehaviour:
   waterMaskOffset: {x: 0, y: 0}
   decalLayerMask: 1
   lightLayerMask: 1
-  underWater: 0
+  underWater: 1
   volumeBounds: {fileID: 0}
   volumeDepth: 50
   volumePrority: 0
