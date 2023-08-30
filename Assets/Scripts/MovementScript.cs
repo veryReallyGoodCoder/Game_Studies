@@ -11,6 +11,7 @@ public class MovementScript : MonoBehaviour
     private Vector2 playerInput;
 
     [SerializeField] private float speed = 10f;
+    private float gravity = -9.81f;
 
     public void PlayerMove(InputAction.CallbackContext ctx)
     {
@@ -25,7 +26,7 @@ public class MovementScript : MonoBehaviour
     void Update()
     {
         
-        Vector3 move = new Vector3(playerInput.x, 0, playerInput.y);
+        Vector3 move = new Vector3(playerInput.x, gravity, playerInput.y);
         controller.Move(move * speed * Time.deltaTime);
 
     }
