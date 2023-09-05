@@ -201,6 +201,17 @@
                 },
                 {
                     "name": "",
+                    "id": "88f92260-ba2e-4ee2-84f0-c1d5486ae5d0",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Desktop",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ecb210f6-c10d-4d76-ac09-534aa7d6cd95",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",

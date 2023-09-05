@@ -30,9 +30,9 @@ public class MovementScript : MonoBehaviour
         //movement
         //Vector3 move = new Vector3(playerInputMove.x, gravity, playerInputMove.y);
 
-        Vector3 move = playerInputMove.x * transform.right + playerInputMove.y * transform.forward;
+        Vector3 move = transform.right * playerInputMove.x  + transform.forward * playerInputMove.y + transform.up * gravity;
+        //Vector3 applyGravity = new Vector3(0, gravity, 0);
         controller.Move(move * speed * Time.deltaTime);
-        
 
         //camera
 
